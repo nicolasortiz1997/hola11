@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite12" time="12" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite12" tests="1" failures="0" errors="0" time="12" timestamp="2019-02-03 18:23:15" hostname="DESKTOP-GL6GSDP$ - DESKTOP-GL6GSDP" id="Test Suites/Test Suite12">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nicolas\\Katalon Studio\\pruebakatalon\\Reports\\Test Suite12\\20190203_182309"/>
+         <property name="logFiles" value="C:\\Users\\Nicolas\\Katalon Studio\\pruebakatalon\\Reports\\Test Suite12\\20190203_182309\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DESKTOP-GL6GSDP$ - DESKTOP-GL6GSDP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="afd223478864c5f78e829534b3d36a41"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/katalon12" classname="Test Cases/katalon12" status="PASSED">
+         <system-out><![CDATA[2019-02-03 18:23:16 - [TEST_CASE][PASSED] - Test Cases/katalon12: Test Cases/katalon12
+
+2019-02-03 18:23:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-03 18:23:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-03 18:23:17 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-03 18:23:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-03 18:23:23 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-02-03 18:23:24 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-02-03 18:23:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/prueba/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/prueba/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-02-03 18:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/prueba/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-02-03 18:23:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/prueba/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/prueba/Page_CURA Healthcare Service/input_Username_username'
+
+2019-02-03 18:23:25 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/prueba/Page_CURA Healthcare Service/input_Username_username'
+
+2019-02-03 18:23:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/prueba/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/prueba/Page_CURA Healthcare Service/input_Password_password'
+
+2019-02-03 18:23:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/prueba/Page_CURA Healthcare Service/input_Password_password'
+
+2019-02-03 18:23:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/prueba/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/prueba/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-02-03 18:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/prueba/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-02-03 18:23:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/prueba/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C"), "Seoul CURA Healthcare Center", true): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/prueba/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'  using regular expression
+
+2019-02-03 18:23:26 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/prueba/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare C'  using regular expression
+
+2019-02-03 18:23:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/prueba/Page_CURA Healthcare Service/input_Apply for hospital readm")): Object: 'Object Repository/prueba/Page_CURA Healthcare Service/input_Apply for hospital readm' is clicked on
+
+2019-02-03 18:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/prueba/Page_CURA Healthcare Service/input_Apply for hospital readm' is clicked on
+
+2019-02-03 18:23:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/prueba/Page_CURA Healthcare Service/input_None_programs")): Object: 'Object Repository/prueba/Page_CURA Healthcare Service/input_None_programs' is clicked on
+
+2019-02-03 18:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/prueba/Page_CURA Healthcare Service/input_None_programs' is clicked on
+
+2019-02-03 18:23:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/prueba/Page_CURA Healthcare Service/span_Visit Date (Required)_gly")): Object: 'Object Repository/prueba/Page_CURA Healthcare Service/span_Visit Date (Required)_gly' is clicked on
+
+2019-02-03 18:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/prueba/Page_CURA Healthcare Service/span_Visit Date (Required)_gly' is clicked on
+
+2019-02-03 18:23:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/prueba/Page_CURA Healthcare Service/td_12")): Object: 'Object Repository/prueba/Page_CURA Healthcare Service/td_12' is clicked on
+
+2019-02-03 18:23:26 - [MESSAGE][PASSED] - Object: 'Object Repository/prueba/Page_CURA Healthcare Service/td_12' is clicked on
+
+2019-02-03 18:23:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/prueba/Page_CURA Healthcare Service/textarea_Comment_comment"), "hola "): Text 'hola ' is set on object 'Object Repository/prueba/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2019-02-03 18:23:27 - [MESSAGE][PASSED] - Text 'hola ' is set on object 'Object Repository/prueba/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2019-02-03 18:23:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/prueba/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/prueba/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2019-02-03 18:23:27 - [MESSAGE][PASSED] - Object: 'Object Repository/prueba/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2019-02-03 18:23:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-02-03 18:23:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-03 18:23:15 - [TEST_SUITE][PASSED] - Test Suite12: Test Cases/katalon12]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
